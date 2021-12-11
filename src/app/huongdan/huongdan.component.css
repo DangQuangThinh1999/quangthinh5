@@ -1,0 +1,258 @@
+body {    
+    background-image: url('../assets/Images/bg.jpg') ;
+    background-attachment: fixed;     
+    background-repeat: no-repeat;
+    background-position:center top;
+    margin-top: 50px;
+    margin: auto;
+    background-color: black;
+    
+}
+.pc{
+    background-color:white;
+}
+.nab li{
+    margin-left:10px;
+    margin-right:10px;
+}
+.nab a{
+    font-size:12px;
+    font-weight:bold;
+}
+.navbar a:hover{
+    color:red;
+}
+.gioithieu a{
+    color:orange;
+}
+a{
+    color:black;
+}
+.gioithieu img{
+    width:49%; float:left
+}
+.gioithieu div{
+    width:49% ;float:right
+}
+.bold{
+    font-weight:bold;
+}
+a:hover{
+    text-decoration:none;
+    color:orange;
+}
+.gioithieu{
+    padding-top:10px;    
+}
+#d1{
+    font-weight:bold;
+    color:black;
+    font-size:16px;
+    padding-left:15px;
+    background-image: url('../assets/Images/i.png'); 
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#search{
+    float:right; 
+    margin:10px 50px 10px 0px;
+    background-color:black;
+    padding:5px 5px 5px 5px;
+    border-radius: 5px 5px;
+    height:30px;
+    font-size:13px;
+}
+#search input{
+    background:black; 
+    border:none;
+    color:white; 
+    background-color:black;
+}
+#search button{
+    background:black; 
+    border:none;
+    color:white;
+    background-color:black;
+}
+#d2{
+    padding-top:30px;
+}
+.imgtb {
+    background-image: url('../assets/Images/imgtb.png');
+    font-weight:bold;
+    color:#FB7204;
+    text-align:center;
+    font-size:13px;
+}
+.tbo{
+    background-color:orangered;
+    color:white;
+    font-weight:bold;
+}
+ul li{
+    margin-left:-20px;
+    font-size:12px;
+    font-weight:normal;
+}
+.fb{
+    background-image: url('../assets/Images/fb_bg.png');background-position:center top
+}
+.t{
+    width:100px;
+    color:white;
+    margin-left:-30px;
+}
+.fb a{
+    color:white;
+    font-size:18px;
+}
+.fb a:hover{
+    text-decoration:underline;
+}
+.dinh {
+    list-style-image: url('../assets/Images/dinh.png');
+}
+#ultt{
+    margin-left:10px;
+}
+#tt1{
+    list-style-image: url('../assets/Images/tt1.png');
+}
+#tt2{
+    list-style-image: url('../assets/Images/tt2.png');
+}
+#tt3{
+    list-style-image: url('../assets/Images/tt3.png');
+}
+#tt4{
+    list-style-image: url('../assets/Images/tt4.png');
+}
+.ulv{
+    list-style:square;  
+    color:dimgrey;
+}
+
+.tdt{
+    border-top:1px solid dimgrey;    
+    padding-top:10px;
+}
+.ulv a{    
+    color:dimgrey;
+}
+.ulv a:hover{    
+    color:orange;
+}
+.ht {
+    list-style-image: url('../assets/Images/ht.gif');
+}
+.ht1 {
+    list-style-image: url('../assets/Images/ht1.png');
+}
+.ht2 {
+    list-style-image: url('../assets/Images/ht2.png');
+}
+.ht3 {
+    list-style-image: url('../assets/Images/ht3.png');
+}
+.divcenter{
+    vertical-align:middle;
+    text-align:center;
+}
+.slt{
+    color:red; 
+    text-decoration:line-through;
+}
+.sred{
+    color:red;
+}
+.divscl{
+    margin-bottom:20px;
+}
+.btnchitiet{
+    width:72px;
+    background-color:orangered;
+    color:white;
+    font-size:12px;
+}
+.btnmuahang{
+    width:72px;
+    margin-right:10px;
+    background-color:black;
+    color:orangered;    
+    font-size:12px;
+}
+.items{
+    font-size:12px;
+}
+.thongtin a{
+    color:#FD01D6;
+    font-weight:bold;    
+    font-size:14px;
+}
+.thongtin a:hover{
+    color:black;
+}
+.thongtin img{
+    float:left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+        
+}
+.thongtin tr{
+    border-bottom:1px solid #e1e1e1;
+    text-align:justify;
+    font-size:12px;
+}
+.huongdan a{
+    color:#FD01D6;
+    font-weight:bold;
+    font-size:14px;
+}
+.huongdan a:hover{
+    color:black;
+}
+.huongdan img{
+    width:112px;
+    float:left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+        
+}
+.huongdan tr{
+    border-bottom:1px solid #e1e1e1;
+    text-align:justify;
+    font-size:12px;
+}
+.p25{
+    padding: 10px 25px;height:28px;
+}
+.divc{
+    background-color:white;
+    font-weight:bold;
+    font-size:12px; 
+    border-radius:5px 5px;
+    padding: 10px;
+}
+.divc a{
+    color:#195B8E;
+}
+.divc a:hover{
+    background-color:#666666;
+    color:white;
+}
+.pb{
+    padding-bottom:10px;
+}
+.ft {
+    margin-top: 10px;    
+    min-height: 500px;
+    color: white;    
+    background-image: url('../assets/Images/footerbg.png');
+    background-repeat:repeat-y;
+}
+.jt{
+    text-align:justify;
+    font-size:10px;
+    color:#333333;
+}
+

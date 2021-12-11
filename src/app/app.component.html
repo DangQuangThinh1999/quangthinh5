@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cửa hàng bán chuột Hamter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    
+</head>
+<body>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <!-- Thanh tìm kiếm -->
+        <div class="search-container">
+            <form action="index.html" id="search">
+                <input type="text" placeholder="Tìm kiếm ... " name="search">
+                <button type="submit" ><i class="glyphicon glyphicon-search"></i></button>
+            </form>
+        </div>    
+        <!-- Banner -->    
+        <img style="width:100%;" src="../assets/Images/banner.jpg" />
+        <!-- Menu -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#"><img src="../assets/Images/home.jpg" /></a>
+                </div>
+                <ul class="nav navbar-nav nab">
+                    <li class="active"><a [routerLink]="['/home']" routerLinkActive="router-link-active">Trang chủ</a></li>
+                    <li><a [routerLink]="['/gioithieu']" routerLinkActive="router-link-active">Giới thiệu</a>
+                    <li class="dropdown"><a [routerLink]="['/sanpham']" routerLinkActive="router-link-active">Sản phẩm</a></li>
+                    <li><a [routerLink]="['/huongdan']" routerLinkActive="router-link-active">Cách nuôi và chăm sóc chuột Hamter</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Nội dung bên trái -->
+        <div class="col-md-12 pc" id="d2">
+            <div class="col-md-3 ">
+                <table class="table table-bordered">
+                    <tr>
+                        <th class="imgtb">Cửa hàng chuột Hamster</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <ul>
+                                <li>
+                                    <a href="#" class="bold">CHUỘT HAMSTER</a>
+                                    <ul>
+                                        <li><a href="#">Chuột Hamster Abino</a></li>
+                                        <li><a href="#">Chuột Hamster Robo (roborovski - chuột Mông Cổ)</a></li>
+                                        <li><a href="#">Chuột Hamster Panda Bò Sữa</a></li>
+                                        <li><a href="#">Chuột Hamster Panda Bò Sữa Trắng-Đen</a></li>
+                                        <li><a href="#">Chuột Hamster Winter White Campbell trắng</a></li>
+                                        <li><a href="#">Chuột Hamster Winter White Campbell vàng</a></li>
+                                        <li><a href="#">Chuột Hamster Winter White Trà Sữa</a></li>
+                                        <li><a href="#">Chuột Hamster Campbell Trà Sữa</a></li>
+                                        <li><a href="#">Chuột Hamster Winter White Trắng Tuyết</a></li>
+                                        <li><a href="#">Chuột Hamster Đen Yếm Trắng</a></li>
+                                        <li><a href="#">Chuột Hamster Xám Yếm Trắng</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="bold">Chuột Sóc - Dwarf Hamster</a></li>
+                                <li>
+                                    <a href="#" class="bold">Chuột Bear - Chuột Gấu</a>
+                                        <ul>
+                                            <li><a href="#">Bear Hamster - Syrian Hamster</a></li>
+                                        </ul>
+                                    </li>
+                                <li><a href="#" class="bold">Thức ăn cho chuột Hamster</a>
+                                    <ul>
+                                        <li><a href="#">Thức ăn chính hàng ngày</a></li>
+                                        <li><a href="#">Thức ăn phụ, thức ăn dinh dưỡng bổ sung cho chuột</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="bold">Mài Răng Canxi- Đồ Gặm Nhấm Cho Chuột Hamster</a></li>
+                                <li><a href="#" class="bold">Đồ Chơi Cho Chuột Hamster</a></li>
+                                <li><a href="#" class="bold">Nhà Cho Chuột Hamster</a></li>
+                                <li><a href="#" class="bold">Lồng Chuột Hamster</a>
+                                    <ul>
+                                        <li><a href="#">Lồng nguyên bộ</a></li>
+                                        <li><a href="#">Lồng xách tay - Lồng du lịch</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="bold">Bể Kính Nuôi Hamster</a></li>
+                                <li><a href="#" class="bold">Nhà Tắm - Cát Tắm Cho Hamster</a></li>
+                                <li><a href="#" class="bold">CÁC LOẠI VẬT NUÔI KHÁC</a>
+                                    <ul>
+                                        <li><a href="#">Sóc Bay Có Túi - Australia Sugar Glider</a></li>
+                                        <li><a href="#">Sóc Nhen</a></li>
+                                        <li><a href="#">Đồ Dùng Cho Vật Nuôi Khác</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Fanpage facebook</th>
+                    </tr>
+                    <tr>
+                        <td class="fb">  
+                            <div class="col-md-6 ">
+                                <img src="../assets/Images/fb_img.jpg" class="img-thumbnail" style="margin-left:-15px" >
+                            </div>
+                            <div class="col-md-6 t">
+                                <a href="#"><p>CửaHàng...</p></a>
+                                <p style="font-size:12px;">55k thích</p>
+                            </div>   
+                        </td>
+                    <tr>
+                        <th class="imgtb">Những người bạn của Hamster</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="dinh">
+                                <li>
+                                    <a href="#">Giày trượt patin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mô hình trưng bày</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kính áp tròng DollyLens</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sản phẩm sáng tạo</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Quảng cáo</th>
+                    </tr>
+                    <tr>
+                        <td>Đang cập nhật</td>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Thông tin tiện ích</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul id="ultt">
+                                <li id="tt1">
+                                    <a href="#">Thời tiết</a>
+                                </li>
+                                <li id="tt2">
+                                    <a href="#">Giá vàng</a>
+                                </li>
+                                <li id="tt3">
+                                    <a href="#">Ngoại tệ</a>
+                                </li>
+                                <li id="tt4">
+                                    <a href="#">Chứng khoán</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <!-- Nội dung giữa -->               
+            <div class="col-md-6 "><router-outlet></router-outlet> 
+                
+            </div>
+            <!-- Nội dung bên phải -->
+            <div class="col-md-3">
+                <table class="table table-bordered">
+                    <tr>
+                        <th class="imgtb">Sản phẩm tiêu biểu</th>
+                    </tr>
+                    <tr>
+                        <th> 
+                            <marquee direction="up" height="500">                                
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s1.png" /><br />
+                                    <span><a href="#">Chuột Hamter Bear lông xoăn(Rex)</a></span>
+                                    <img src="../assets/Images/sale.gif" /><br />
+                                    <span>Giá cũ <span class="slt">170.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">150.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div>
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s2.png" /><br />
+                                    <span><a href="#">Chuột Hamter Bear xù</a></span>
+                                    <img src="../assets/Images/hot.gif" /><br />
+                                    <span>Giá cũ <span class="slt">180.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">150.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div>          
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s3.jpg" /><br />
+                                    <span><a href="#">Chuột Hamter Winter White Cambell nâu vàng</a></span>
+                                    <img src="../assets/Images/hot.gif" /><br />
+                                    <span>Giá cũ <span class="slt">155.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">130.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div> 
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s4.jpg" /><br />
+                                    <span><a href="#">Chuột Hamter Robo thuần chủng</a></span>
+                                    <img src="../assets/Images/sale.gif" /><br />
+                                    <span>Giá cũ <span class="slt">245.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">195.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div>  
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s5.jpg" /><br />
+                                    <span><a href="#">Chuột Hamter Winter White</a></span>
+                                    <img src="../assets/Images/hot.gif" /><br />
+                                    <span>Giá cũ <span class="slt">150.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">120.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div>
+                                <div class="divscl divcenter">
+                                    <img src="../assets/Images/Scroll/s6.jpg" /><br />
+                                    <span><a href="#">Chuột Hamter Robo thuần chủng</a></span>
+                                    <img src="../assets/Images/new.gif" /><br />
+                                    <span>Giá cũ <span class="slt">245.000đ</span></span><br />
+                                    <span>Giá mới <span class="sred">195.000đ</span> </span>
+                                    <div>
+                                        <button class="btnchitiet">Chi tiết</button>
+                                        <button class="btnmuahang">Mua hàng</button>
+                                    </div>
+                                </div>
+                            </marquee>                          
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Hướng dẫn chọn mua chuột</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table>                                
+                                <tr>                                        
+                                    <td>
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Phân biệt ưu và nhược điểm của lồng chuột</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Thực phẩm và chế độ ăn hợp lý cho Hamster</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Một số hành vi thường gặp của Hamster</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Phương pháp an toàn nhất nếu bạn buộc phải tắm cho chú chuột hamster bằng nước</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Những vật dụng cần thiết cần chuẩn bị khi bạn muốn nuôi một bé Hamster</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Các loại chuột Hamster - Phần 2: Dwarf Hamster bao gồm Roborovsky, Campbell, Winter White và Hamster Trung Quốc</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Các loại chuột Hamster - Phần 1: Syrian Hamster hay còn gọi là Hamster Bear ( ở VN) hoặc Golden Hamster</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Hướng dẫn bạn chọn một bé Hamster phù hợp và khoẻ mạnh</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Làm thế nào để chăm sóc cho Hamster mang thai của bạn</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tdt">
+                                        <ul class="ulv">
+                                            <li>
+                                                <a href="#">Tại sao Sản Phẩm Sáng Tạo .com luôn luôn là sự lựa chọn số 1 khi tìm mua Hamster đảm bảo THUẦN CHỦNG và KHÔNG MANG MẦM BỆNH.!?</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>                                
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Hỗ trợ trực tuyến</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="ht">
+                                <li>
+                                    <a href="#">Hotline 0422150808</a>
+                                </li>
+                            </ul>
+                            <a href="#">Facebook Cửa hàng chuột Hamter / Hamster Shop - Sản Phẩm Sáng Tạo .com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="imgtb">Các bạn yêu chuột hamster</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <ul class="ht1">
+                                <li>
+                                    Đang xem
+                                </li>
+                            </ul>
+                            <ul class="ht2">
+                                <li>
+                                    Hôm nay <span style="color:red">469</span>
+                                </li>
+                            </ul>
+                            <ul class="ht3">
+                                <li>
+                                    Tổng lượt truy cập <span style="color:red">5,073,448</span>
+</li>
+                            </ul>
+                        </th>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <div class="col-md-12 pb"></div>
+        
+        <div class="col-md-12 ft">
+            <p class="bold" style="text-align: center;">Cửa hàng bán chuột Hamster giá rẻ nhất, đảm bảo thuần chủng 100% - Sản Phẩm Sáng Tạo .com | 244 Kim Mã, Hà Nội - 024.22150808</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p class="jt">Bán chuột Hamster giá rẻ nhất tại Sản Phẩm Sáng Tạo .com 244 Kim Mã, Hà Nội | Chỗ mua chuột Hamter rẻ nhất | Thức ăn cho Hamster phong phú nhất | Lồng nuôi Hamster | Nhà cho Hamster | Vật dụng chăm sóc Hamster | Đồ dùng, phụ kiện cho chuột Hamster đa dạng nhất | Đồ chơi cho Hamster giá rẻ nhất | Hướng dẫn cách nuôi chuột Hamster | Chăm sóc chuột Hamster 
+            Chuột Hamster - Chuột Hamter - Chuột Hamto - Chuột Hamer - Chuột Ham tơ - Chuột Ham mơ - Chuột cảnh - Chuột bạch - Chuột cảnh Hamster - Chuột Hammer
+            Cửa hàng bán chuột Hamster giá rẻ nhất, Pet shop, Cửa hàng bán thú cảnh, vật nuôi, đồ dùng chăm sóc động vật, phụ kiện cho hamster, đồ chơi cho hamster đa dạng, phong phú, nhiều chủng loại, giá rẻ nhất Hà Nội.</p>
+        </div>
+    </div>   
+<a [routerLink]="['/login']" routerLinkActive="router-link-active">Đăng nhập</a>|
+<a [routerLink]="['/login']" routerLinkActive="router-link-active">Đăng ký</a>
+
+    
+</body>
+</html>
+
+
